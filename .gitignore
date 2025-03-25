@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# Ambiente virtual
+venv/
+.env/
+.env
+
+# Arquivos de configuração do PyCharm
+.idea/
+*.iml
+
+# Pastas de build
+build/
+dist/
+*.egg-info/
+
+# Arquivos de configuração de logs
+logs/
+
+# Arquivos temporários
+*.swp
+*.bak
+*.tmp
+*.orig
+
+# VSCode
+.vscode/
+
+# Arquivos de configuração do VSCode
+*.code-workspace
