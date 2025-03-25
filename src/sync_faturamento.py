@@ -4,11 +4,11 @@ from calendar import monthrange
 from decimal import Decimal
 import logging
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from datetime import datetime
 from config.database import get_connection
 from config.mydatabase import get_mysql_connection
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 QUERIES_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "queries"))
 
